@@ -1,0 +1,35 @@
+ body {
+   margin: 0;
+ }
+#root {
+  display: flex;
+  margin:0;
+  padding: 0;
+  justify-content: center;
+  align-items: center;
+  background-color: #1a1d23;
+  height: 100vh;
+}
+.App {
+  width: 50vw;
+  height: 60vh;
+}
+.App {
+  width: 45vw;
+  height: 90vh;
+  
+  -webkit-box-shadow: 28px 13px 98px -5px rgba(0,0,0,0.57);
+  -moz-box-shadow: 28px 13px 98px -5px rgba(0,0,0,0.57);
+   box-shadow: 28px 13px 98px -5px rgba(0,0,0,0.57);
+}
+.todo-item {
+  width:30 vw;
+  margin:0 auto;
+  -webkit-box-shadow: 28px 13px 98px -5px rgba(0,0,0,0.57);
+  -moz-box-shadow: 28px 13px 98px -5px rgba(0,0,0,0.57);
+   box-shadow: 28px 13px 98px -5px rgba(0,0,0,0.57);
+   display: flex;
+   justify-content: left;
+   align-items: center; 
+  
+}
